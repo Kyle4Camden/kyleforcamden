@@ -1,0 +1,148 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Manrope";
+}
+
+#paragraph-one p {
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 2vh;
+}
+
+#paragraph-two p {
+    color: #2A0A40;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 2vh;
+}
+
+#paragraph-three p {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-bottom: 2vh;
+}
+
+header {
+    width: 100vw;
+    height: 50vh;
+    background-image: url("griefer.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+#navbar {
+    width: 100vw;
+    height: 7vh;
+    background-color: #2A0A40;
+    display: flex;
+    justify-content: right;
+    opacity: .9;
+}
+
+nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px;
+}
+
+nav a:hover {
+    padding: 5px;
+    transition: .5s;
+    border-radius: 3px;
+    color: #EFB815;
+}
+
+nav ul {
+    margin-top: 1vh;
+    margin-right: 4vw;
+}
+
+nav ul li {
+    padding: 10px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.container {
+    width: 100vw;
+    height: fit-content;
+    margin: 0 auto;
+}
+
+#paragraph-one {
+    margin: 0 auto;
+    width: 60vw;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    height: fit-content;
+    background-color: #2A0A40;
+    color: #E1DAC0;
+    font-size: 1.2em;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
+
+#paragraph-two {
+    margin: 0 auto;
+    width: 60vw;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    height: fit-content;
+    background-color: whitesmoke;
+    color: #2A0A40;
+    font-size: 1.2em;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
+
+#paragraph-three {
+    margin: 0 auto;
+    width: 60vw;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    height: fit-content;
+    background-color: firebrick;
+    color: whitesmoke;
+    font-size: 1.2em;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+}
+
+#emailform {
+    color: beige;
+    height: 15wh;
+    width: 15vw;
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#emailname {
+    height: 20px;
+    border-color: #9d38e0;
+    background-color: #2A0A40;
+    color: whitesmoke;
+    border-radius: 3px;
+}
+
+#emailinput {
+    height: 20px;
+    border-color: #9d38e0;
+    background-color: #2A0A40;
+    color: whitesmoke;
+    border-radius: 3px;
+}
+
+#emailsubmit {
+    margin-top: 3vh;
+    background-color: #9d38e0;
+    border: 1px solid #9d38e0;
+    color: whitesmoke;
+    width: 75px;
+    height: 50px;
+}
